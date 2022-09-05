@@ -1,0 +1,45 @@
+@font-face {
+    font-family: open-sans;
+    src: url(open-sans/web\ fonts/);
+}
+
+*{
+    font-family: open-sans;
+}
+
+.siteContainer{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+
+.navContainer ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.navContainer ul a{
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOne{
+
+}

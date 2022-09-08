@@ -6,59 +6,118 @@
     <link type="text/css" rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev With Daniel</title>
+    <style>
+      body {
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
+    </style>
   </head>
   <body>
-    <main class="siteContainer">
+    <section class="siteContainer">
       <div>
         <nav class="navContainer">
-          <ul>
-            <a href="#section1" class="btn">Bio</a>
+          <ul class="navLeft">
             <a href="#section2" class="btn">Projects and Experience</a>
             <a href="#section3" class="btn">Education</a>
             <a href="#section4" class="btn">Skills</a>
             <a href="#section5" class="btn">Contact</a>
           </ul>
-          <div></div>
+          <ul>
+            <a href="https://github.com/OddFutureDaniel" target="_blank">
+              <img class="github" src="/images/GitHub_Logo.png" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/daniel-r-580620111/"
+              target="_blank"
+            >
+              <img
+                class="linkedIn"
+                src="/images/LinkedIn-Blue-128@2x.png"
+                alt=""
+              />
+            </a>
+          </ul>
         </nav>
       </div>
-      <h1>Dev with Dan</h1>
-      <p></p>
+      <div class="heroBody">
+        <div class="heroContainer">
+          <header class="heroHeader">
+            &lt <strong>Hey, I'm Daniel Rogerson</strong> &gt
+          </header>
+          <p>
+            A graduate software developer now front-end developer creating
+            responsive websites for the optimal user experience.
+          </p>
+          <img
+            class="avatar"
+            src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Pink&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown"
+          />
+        </div>
+      </div>
+      <!-- <div class="loadup">
+        <marquee behavior="alternate" scorrlamount="30">
+          <marquee behavior="alternate" scorrlamount="30" direction="down">
+            <img src="/images/dvd_logo.png" alt="DVD Logo" />
+          </marquee>
+        </marquee>
+      </div> -->
       <section class="mainSection">
-        <div class="sectionOne" id="section1">Bio</div>
-        
         <div class="sectionTwo" id="section2">
-            <header>Projects and Experience</header>
-            <nav class="projectNavContainer">
-                <ul>
-                    <li>All Projects</li>
-                    <li>Web Design</li>
-                    <li>Mobile App</li>
-                </ul>
-            </nav>
-            <section class="projectDisplayContainer">
-                <div class="projectWrapper">
-                    <div>
-                        <img src="/images/googlerecreation.png" alt="Google recreation">
-                    </div>
-                    <div>
-                        <img src="/images/googlerecreation.png" alt="Google recreation">
-
-                    </div>
-                    <div>
-                        <img src="/images/googlerecreation.png" alt="Google recreation">
-
-                    </div>
-                </div>
-            </section>
-        
+          <header>Projects and Experience</header>
+          <nav class="projectNavContainer">
+            <ul>
+              <li>All Projects</li>
+              <li>Web Design</li>
+              <li>Mobile App</li>
+            </ul>
+          </nav>
+          <section class="projectDisplayContainer">
+            <div class="projectWrapper">
+              <div>
+                <a
+                  href="https://github.com/OddFutureDaniel/googleRecreate"
+                  target="_blank"
+                >
+                  <img
+                    src="/images/googlerecreation.png"
+                    alt="Google recreation"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/OddFutureDaniel/portfolio"
+                  target="_blank"
+                >
+                  <img
+                    src="/images/Screenshot 2022-09-08 at 14.23.20.png"
+                    alt="Portfolio website"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/OddFutureDaniel/googleRecreate"
+                  target="_blank"
+                >
+                  <img
+                    src="/images/googlerecreation.png"
+                    alt="Google recreation"
+                  />
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
         <div class="sectionThree" id="section3">Education</div>
         <div class="sectionFour" id="section4">Skills</div>
         <div class="sectionFive" id="section5">Contact</div>
       </section>
-    </main>
+    </section>
     <footer class="footer">
-        <p>footer</p>
+      <p>footer</p>
     </footer>
   </body>
 </html>

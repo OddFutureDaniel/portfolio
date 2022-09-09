@@ -1,5 +1,15 @@
+@font-face {
+  font-family: raleway;
+  src: url(/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: raleway-semibold;
+  src: url(Raleway/static/Raleway-SemiBold.ttf);
+}
+
 * {
-  font-family: sans-serif;
+  font-family: raleway;
 }
 
 .siteContainer {
@@ -31,28 +41,28 @@
   color: black;
 }
 
-.navLeft :hover{
-    text-decoration: underline;
-  }
+.navLeft :hover {
+  text-decoration: underline;
+}
 
-  .github {
-    width: auto;
-    height: 30px;
-    padding-right: 5px;
-  }
+.github {
+  width: auto;
+  height: 30px;
+  padding-right: 5px;
+}
 
-  .linkedIn{
-    width: auto;
-    height: 25px;
-    margin-top: 2px;
-    padding-left: 5px;
-  }
+.linkedIn {
+  width: auto;
+  height: 25px;
+  margin-top: 2px;
+  padding-left: 5px;
+}
 
-  .github .linkedIn{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-  }
+.github .linkedIn {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
 
 .heroBody {
   display: flex;
@@ -60,38 +70,77 @@
   height: auto;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-.heroContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
-    height: auto;
-    flex-wrap: wrap;
-    text-align: center;
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-.heroHeader{
-    font-size: 2.8rem;
-    margin: 20px;
+.heroHeader {
+  font-size: 2.8rem;
+  margin: 20px;
 }
 
-.heroContainer p{
-    width: 80%;
-    margin: 20px;
-    font-size: 1.5rem;
+.name {
+  font-family: Raleway-semibold;
+  color: #ff60a2;
 }
 
-.avatar{
+.heroContainer p {
+  width: 80%;
+  margin: 20px;
+  font-size: 1.5rem;
+}
 
-    width: 200px;
-    height: auto;
-    max-width: 100%;
-    margin: 10px;
+.avatar {
+  width: 220px;
+  height: auto;
+  max-width: 100%;
+  margin: 10px;
+}
 
+.workbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 250px;
+  height: 50px;
+}
+
+.workbtn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.workbtn :hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ff60a2;
+  border: 1px solid #ff60a2;
+  border-radius: 5px;
 }
 
 /* .loadup {
@@ -112,6 +161,7 @@ marquee {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 130px;
 }
 
 .sectionTwo {
@@ -122,10 +172,12 @@ marquee {
   width: 100%;
   background-color: rgb(255, 255, 255);
   height: auto;
+  margin-top: 20px;
 }
 
-.sectionTwo header {
-    font-size: 2.6em;
+h2{
+  font-size: 2.6em;
+  text-align: center;
 }
 
 .projectNavContainer {
@@ -147,8 +199,8 @@ marquee {
 }
 
 .projectNavContainer ul li:hover {
-    text-decoration: underline;
-  }
+  text-decoration: underline;
+}
 
 .projectDisplayContainer {
   display: flex;
@@ -180,8 +232,9 @@ marquee {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 240px;
   border-radius: 5px;
+  border: 1px solid black;
 }
 
 .projectWrapper > div :hover {

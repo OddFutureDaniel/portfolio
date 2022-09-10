@@ -381,6 +381,79 @@ h2 {
   width: 85%;
 }
 
+.sectionFive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  height: auto;
+  margin-top: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.contactForm * {
+  margin: 5px;
+}
+
+.nameEmailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.name{
+    width: 100%;
+}
+
+.email{
+    width: 100%;
+}
+.emailContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 /* .cProgress{
     width: 30%;
 } */

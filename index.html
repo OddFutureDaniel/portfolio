@@ -74,10 +74,7 @@
           <div class="s1Container">
             <div class="s1Content">
               <div class="photo">
-                <img
-                  class="bioPhoto"
-                  src="/images/IMG_5106.jpg"
-                />
+                <img class="bioPhoto" src="/images/IMG_5106.jpg" />
               </div>
               <div class="bio">
                 <p>
@@ -101,13 +98,13 @@
         </div>
         <div class="sectionTwo" id="section2">
           <h2>Projects and Experience</h2>
-          <nav class="projectNavContainer">
+          <!-- <nav class="projectNavContainer">
             <ul>
               <li>All Projects</li>
               <li>Web Design</li>
               <li>Mobile App</li>
             </ul>
-          </nav>
+          </nav> -->
           <section class="projectDisplayContainer">
             <div class="projectWrapper">
               <div>
@@ -132,7 +129,7 @@
                   />
                 </a>
               </div>
-              <div>
+              <!-- <div>
                 <a
                   href="https://github.com/OddFutureDaniel/googleRecreate"
                   target="_blank"
@@ -142,7 +139,7 @@
                     alt="Google recreation"
                   />
                 </a>
-              </div>
+              </div> -->
             </div>
           </section>
         </div>
@@ -181,7 +178,45 @@
             </div> -->
           </div>
         </div>
-        <div class="sectionFive" id="section5"><h2>Contact</h2></div>
+        <div class="sectionFive" id="section5">
+          <h2>Contact</h2>
+          <div class="contactContainer">
+            <div class="formContainer">
+              <form class="contactForm" action="contact.php" method="post">
+                <div class="nameEmailContainer">
+                  <div class="nameContainer">
+                    <label for="name">Name:</label>
+                    <input
+                      class="name"
+                      type="text"
+                      name="name"
+                      placeholder="Your name"
+                    />
+                  </div>
+                  <div class="emailContainer">
+                    <label for="email">Email:</label>
+                    <input
+                      class="email"
+                      type="text"
+                      name="email"
+                      placeholder="Your email"
+                    />
+                  </div>
+                </div>
+                <div class="messageContainer">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Your message"
+                    style="width: 90%"
+                  ></textarea>
+                </div>
+                <input type="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
     <footer class="footer">

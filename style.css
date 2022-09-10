@@ -38,7 +38,7 @@
   display: flex;
   margin: 10px;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .navLeft :hover {
@@ -126,11 +126,11 @@
   margin: 0px;
   width: 100%;
   height: 100%;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .workbtn :hover {
@@ -164,19 +164,64 @@ marquee {
   margin-top: 130px;
 }
 
+.sectionOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  height: auto;
+  margin-top: 20px;
+}
+
+.s1Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.s1Content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 80vw;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  font-size: 1.3em;
+}
+
 .sectionTwo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(30, 30, 30);
   height: auto;
   margin-top: 20px;
 }
 
-h2{
-  font-size: 2.6em;
+h2 {
+  font-size: 2em;
   text-align: center;
 }
 
@@ -234,7 +279,7 @@ h2{
   width: 100%;
   height: 240px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .projectWrapper > div :hover {
@@ -243,3 +288,55 @@ h2{
   align-items: center;
   transform: scale(1.05);
 }
+
+.sectionFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  height: auto;
+  margin-top: 20px;
+}
+
+.skillsContainer {
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progressBar {
+  width: 800px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.progressBar div {
+  height: 20px;
+  background-color: #ff60a2;
+  border-radius: 10px 0 0 10px;
+}
+
+.javaProgress {
+  width: 60%;
+}
+
+.jsProgress {
+  width: 40%;
+}
+
+.htmlProgress {
+  width: 80%;
+}
+
+.css3Progress {
+  width: 85%;
+}
+
+/* .cProgress{
+    width: 30%;
+} */

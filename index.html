@@ -9,8 +9,8 @@
     <style>
       body {
         margin: 0px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: rgb(30, 30, 30);
+        color: rgb(255, 255, 255);
       }
     </style>
   </head>
@@ -19,8 +19,8 @@
       <div>
         <nav class="navContainer">
           <ul class="navLeft">
+            <a href="#section1" class="btn">About Me</a>
             <a href="#section2" class="btn">Projects and Experience</a>
-            <a href="#section3" class="btn">Education</a>
             <a href="#section4" class="btn">Skills</a>
             <a href="#section5" class="btn">Contact</a>
           </ul>
@@ -46,7 +46,7 @@
           <header class="heroHeader">
             &lt
             <strong>Hey, I'm <span class="name">Daniel Rogerson</span> </strong
-            >&gt
+            >/&gt
           </header>
           <p>
             A graduate software developer now front-end developer creating
@@ -69,6 +69,36 @@
         </marquee>
       </div> -->
       <section class="mainSection">
+        <div class="sectionOne" id="section1">
+          <h2>About Me</h2>
+          <div class="s1Container">
+            <div class="s1Content">
+              <div class="photo">
+                <img
+                  class="avatar"
+                  src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Pink&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown"
+                />
+              </div>
+              <div class="bio">
+                <p>
+                  My name is Daniel Rogerson. I'm a soon to be graduate of 2023
+                  from Royal Holloway University of London with a degree in
+                  Computing Technologies. I'm most passionate about realising
+                  the creativity of both myself and my community and one way I
+                  like to pursue that goal is through frontend development.
+                </p>
+                <p>
+                  In my free time I am a fashion designer, seamstress,
+                  basketball player, like working on my own projects and a
+                  professional coffee drinker.
+                </p>
+                <p>
+                    <a href="">CV</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="sectionTwo" id="section2">
           <h2>Projects and Experience</h2>
           <nav class="projectNavContainer">
@@ -116,10 +146,41 @@
             </div>
           </section>
         </div>
-        <div class="sectionThree" id="section3">
-          <h2>Education</h2>
+        <div class="sectionFour" id="section4">
+          <h2>Skills</h2>
+          <div class="skillsContainer">
+            <div>
+              <p>Java</p>
+              <div class="progressBar">
+                <div class="javaProgress"></div>
+              </div>
+            </div>
+            <div>
+              <p>JavaScript</p>
+              <div class="progressBar">
+                <div class="jsProgress"></div>
+              </div>
+            </div>
+            <div>
+              <p>HTML5</p>
+              <div class="progressBar">
+                <div class="htmlProgress"></div>
+              </div>
+            </div>
+            <div>
+              <p>CSS3</p>
+              <div class="progressBar">
+                <div class="css3Progress"></div>
+              </div>
+            </div>
+            <!-- <div>
+              <p>C++</p>
+              <div class="progressBar">
+                <div class="cProgress"></div>
+              </div>
+            </div> -->
+          </div>
         </div>
-        <div class="sectionFour" id="section4"><h2>Skills</h2></div>
         <div class="sectionFive" id="section5"><h2>Contact</h2></div>
       </section>
     </section>

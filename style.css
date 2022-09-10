@@ -180,6 +180,7 @@ marquee {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
 }
@@ -188,16 +189,23 @@ marquee {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: row;
-  width: 80vw;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
 .photo {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 380px;
   height: auto;
+}
+
+.bioPhoto {
+  display: flex;
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .bio {
@@ -205,9 +213,44 @@ marquee {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 70%;
+  max-width: 60%;
   height: auto;
   font-size: 1.3em;
+  text-align: center;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.cv a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.cv :hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ff60a2;
+  border: 1px solid #ff60a2;
+  border-radius: 5px;
 }
 
 .sectionTwo {
@@ -310,7 +353,7 @@ h2 {
 }
 
 .progressBar {
-  width: 800px;
+  width: 60vw;
   height: 20px;
   border: 1px solid white;
   border-radius: 10px;

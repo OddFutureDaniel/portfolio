@@ -87,6 +87,7 @@
 .heroHeader {
   font-size: 2.8rem;
   margin: 20px;
+  margin-top: 50px;
 }
 
 .name {
@@ -195,7 +196,7 @@ marquee {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 30%;
   height: auto;
 }
 
@@ -204,7 +205,7 @@ marquee {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
   height: auto;
   font-size: 1.3em;
 }

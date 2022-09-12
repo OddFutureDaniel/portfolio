@@ -49,8 +49,8 @@
             >/&gt
           </header>
           <p>
-            A graduate software developer now front-end developer creating
-            responsive websites for the optimal user experience.
+            A front-end web developer creating responsive websites for the optimal
+            user experience.
           </p>
           <img
             class="avatar"
@@ -170,24 +170,24 @@
                 <div class="css3Progress"></div>
               </div>
             </div>
-            <!-- <div>
-              <p>C++</p>
+            <div>
+              <p>PHP</p>
               <div class="progressBar">
-                <div class="cProgress"></div>
+                <div class="pProgress"></div>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
         <div class="sectionFive" id="section5">
           <h2>Contact</h2>
           <div class="contactContainer">
             <div class="formContainer">
-              <form class="contactForm" action="contact.php" method="post">
+              <form class="contactForm" action="contact.php" method="POST">
                 <div class="nameEmailContainer">
                   <div class="nameContainer">
                     <label for="name">Name:</label>
                     <input
-                      class="name"
+                      class="name1"
                       type="text"
                       name="name"
                       placeholder="Your name"
@@ -212,15 +212,31 @@
                     style="width: 90%"
                   ></textarea>
                 </div>
-                <input type="submit" />
+                <label
+                  for="nickname"
+                  aria-hidden="true"
+                  class="user-cannot-see"
+                >
+                  Nickname
+                  <input
+                    type="text"
+                    name="nickname"
+                    id="nickname"
+                    class="user-cannot-see"
+                    autocomplete="off"
+                    tabindex="-1"
+                  />
+                </label>
+                <input type="submit" value="Send" /><input
+                  type="reset"
+                  value="Clear"
+                />
               </form>
             </div>
           </div>
         </div>
       </section>
     </section>
-    <footer class="footer">
-      <p>footer</p>
-    </footer>
+    <footer class="footer"></footer>
   </body>
 </html>

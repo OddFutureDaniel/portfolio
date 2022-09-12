@@ -378,7 +378,11 @@ h2 {
 }
 
 .css3Progress {
-  width: 85%;
+  width: 75%;
+}
+
+.pProgress {
+  width: 20%;
 }
 
 .sectionFive {
@@ -396,7 +400,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
 }
 
 .formContainer {
@@ -433,12 +437,12 @@ h2 {
   width: 100%;
 }
 
-.name{
-    width: 100%;
+.name1 {
+  width: 100%;
 }
 
-.email{
-    width: 100%;
+.email {
+  width: 100%;
 }
 .emailContainer {
   display: flex;
@@ -454,6 +458,6 @@ h2 {
   width: 100%;
 }
 
-/* .cProgress{
-    width: 30%;
-} */
+.user-cannot-see {
+  display: none;
+}
